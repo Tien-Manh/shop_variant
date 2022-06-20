@@ -1,0 +1,165 @@
+/*.color-option, .color-option .filloption{*/
+/*    border-radius: unset !important;*/
+/*}*/
+.color-option .filloption{
+    width: 24px !important;
+    height: 24px !important;
+}
+.color-option .filloption.nj{
+    width: auto !important;
+    min-width: 30px;
+    height: 30px !important;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.filloption span{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: sub;
+}
+.bg-white .filloption span{
+    color: black;
+}
+.ecommerce-application .product-color-options .selected .b-red {
+    border-color: red; }
+
+.ecommerce-application .product-color-options .selected .b-red .filloption {
+    box-shadow: 0 2px 4px 0 rgba(206, 10, 10, 0.4);
+}
+.bg-red {
+    background-color: red;
+}
+
+.ecommerce-application .product-color-options .selected .b-dark-blue {
+    border-color: darkblue; }
+
+.ecommerce-application .product-color-options .selected .b-dark-blue .filloption {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 139, 0.4);
+}
+.bg-dark-blue {
+    background-color: darkblue;
+}
+
+.ecommerce-application .product-color-options .selected .b-black-smoke {
+    border-color: #3e3c3c; }
+
+.ecommerce-application .product-color-options .selected .b-black-smoke .filloption {
+    box-shadow: 0 2px 4px 0 rgba(42, 38, 38, 0.4);
+}
+.bg-black-smoke {
+    background-color: #3e3c3c;
+}
+
+.ecommerce-application .product-color-options .selected .b-green {
+    border-color: green; }
+
+.ecommerce-application .product-color-options .selected .b-green .filloption {
+    box-shadow: 0 2px 4px 0 rgba(84, 173, 6, 0.4);
+}
+.bg-green {
+    background-color: green;
+}
+
+.ecommerce-application .product-color-options .selected .b-blue {
+    border-color: blue; }
+
+.ecommerce-application .product-color-options .selected .b-blue .filloption {
+    box-shadow: 0 2px 4px 0 rgba(5, 43, 158, 0.4);
+}
+.bg-blue {
+    background-color: blue;
+}
+
+.ecommerce-application .product-color-options .selected .b-pink {
+    border-color: pink; }
+
+.ecommerce-application .product-color-options .selected .b-pink .filloption {
+    box-shadow: 0 2px 4px 0 rgba(255, 192, 203, 0.4);
+}
+.bg-pink {
+    background-color: pink;
+}
+
+.ecommerce-application .product-color-options .selected .b-violet {
+    border-color: violet; }
+
+.ecommerce-application .product-color-options .selected .b-violet .filloption {
+    box-shadow: 0 2px 4px 0 rgba(238, 130, 238, 0.7);
+}
+.bg-violet {
+    background-color: violet;
+}
+
+.ecommerce-application .product-color-options .selected .b-white {
+    border-color: violet; }
+
+.b-white{
+    background-color: whitesmoke !important;
+}
+.ecommerce-application .product-color-options .selected .b-white .filloption {
+    box-shadow: 0 2px 4px 0 rgba(245, 245, 100, 0.4);
+}
+.bg-white {
+    background-color: white;
+}
+.ecommerce-application .product-color-options .selected .b-black {
+    border-color: black; }
+
+.ecommerce-application .product-color-options .selected .b-black .filloption {
+    box-shadow: 0 2px 4px 0 rgba(19, 16, 19, 0.4);
+}
+.bg-black {
+    background-color: black;
+}
+.ecommerce-application .product-color-options .selected .b-orange {
+    border-color: orange; }
+
+.ecommerce-application .product-color-options .selected .b-orange .filloption {
+    box-shadow: 0 2px 4px 0 rgba(255, 165, 0, 0.4);
+}
+.bg-orange {
+    background-color: orange;
+}
+
+.ecommerce-application .product-color-options .selected .b-brown {
+    border-color: brown; }
+
+.ecommerce-application .product-color-options .selected .b-brown .filloption {
+    box-shadow: 0 2px 4px 0 rgba(165, 42, 42, 0.4);
+}
+.bg-brown {
+    background-color: brown;
+}
+
+.ecommerce-application .product-color-options .selected .b-navy-blue {
+    border-color: navy; }
+
+.ecommerce-application .product-color-options .selected .b-navy-blue .filloption {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 128, 0.4);
+}
+.bg-navy-blue {
+    background-color: navy;
+}
+
+.ecommerce-application .product-color-options .selected .b-yellow {
+    border-color: yellow; }
+
+.ecommerce-application .product-color-options .selected .b-yellow .filloption {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 0, 0.4);
+}
+.bg-yellow {
+    background-color: yellow;
+}
+
+.ecommerce-application .product-color-options .selected .b-gray {
+    border-color: gray; }
+
+.ecommerce-application .product-color-options .selected .b-gray .filloption {
+    box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.4);
+}
+.bg-gray {
+    background-color: gray;
+}
+
+

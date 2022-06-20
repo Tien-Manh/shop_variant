@@ -1,0 +1,194 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+thead > tr{
+    white-space: nowrap;
+}
+label{
+    white-space: nowrap;
+}
+.form-check{
+    width: fit-content;
+    margin: 0 auto;
+}
+.showPage{
+    overflow-x: auto;
+}
+.toast{
+    width: 350px !important;
+}
+.fix-img{
+    width: 150px;
+    height: 150px;
+}
+.fix-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fix-img-list{
+    width: 50px;
+    height: 50px;
+}
+.fix-img-list img{
+    object-fit: cover;
+}
+
+form span.error{
+    font-size: 0.857rem;
+}
+form input.error, form input.error:focus {
+    border-color: #ea5455 !important;
+}
+.form-switch .form-check-input:not(:checked){
+    background-color: #EA5455;
+}
+.dz-error-message{
+    display: none !important;
+}
+.rm-m{
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+.dropzone {
+    min-height: 170px !important;
+}
+.dz-default{
+   height: 60px !important;
+}
+.dz-message:before{
+    top: 4rem !important;
+}
+.dz-image img{
+    width: auto;
+    height: 100%;
+}
+div[name="invoice[0][checkBtn]"].pr_f{
+    display: none;
+}
+.select2-search__field{
+    padding: 0 0.289rem !important;
+}
+.select2-search__field::placeholder {
+    color: #bab9c2;
+}
+input[type=checkbox]{
+    cursor: pointer;
+}
+.contents .ql-editor{
+    min-height: 100px;
+}
+.post-modal img{
+    width: 100%;
+    height: auto;
+}
+.views p {
+    padding-bottom: 0.3rem;
+}
+.items{
+    display: none;
+}
+
+.button.button-ts {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: rgba(34,41,47,0.5);
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 18px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 555555;
+    left: 0;
+    top: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+.alert {
+    position: relative;
+    display: block;
+    padding: 1em 1.8em;
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    background: transparent;
+    color: #252525;
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+}
+
+.button--loading .loading {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.loading-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+}
+
+.loading-1:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 80px;
+    height: 80px;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    animation: loading1 1.2s ease infinite;
+    z-index: 10;
+}
+
+.loading-1:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px dashed #fff;
+    width: 80px;
+    height: 80px;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    animation: loading1 1.2s linear infinite;
+    z-index: 5;
+}
+
+@keyframes loading1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
